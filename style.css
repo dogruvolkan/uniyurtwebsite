@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#topBar{
+    background-color: #C31733 ;
+    color:#fdfdfd;
+    padding-top:13px;
+    text-align: center;
+}
+
+#topBar a{
+    text-decoration: none;
+    color:#fdfdfd;
+    background-color: #A40014;
+    padding:8px 12px;
+    transition: all 0.4s;
+}
+
+#topBar a:hover{
+    opacity: 0.9;
+}
+
+#menu{
+    margin:30px 40px; 
+    
+}
+
+#menu #kayit{
+    text-decoration: none;
+    background-color: #C21632;
+    color:#fdfdfd;
+    padding:6px ;
+   
+}
+
+#menu .socialBtn{  
+    border-radius: 50%;
+    color:#333333;
+    padding:9px;
+    margin-left:3px; 
+}
+
+#menu .socialBtn:hover{
+    transition: all 0.9s; 
+}
+
+#menu .face:hover {
+    color:#fdfdfd;
+    background-color: #3b5998;
+}
+
+#menu .twit:hover {
+   
+    color:#fdfdfd;
+    background-color: #1DA1F2;
+}
+
+#menu .inst:hover {
+    color:#fdfdfd;
+    background-color: #C32AA3;
+}
+
+#menu .yout:hover {
+    color:#fdfdfd;
+    background-color: #FF0000;
+}
+
+#menu .link:hover {
+    color:#fdfdfd;
+    background-color: #0A66C2;
+}
+
