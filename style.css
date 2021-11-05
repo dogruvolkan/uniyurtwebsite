@@ -81,5 +81,11 @@ nav a{
     color:black !important;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color:black ;
+    width:25px;
+    padding:5px;
+}
+
 
 
