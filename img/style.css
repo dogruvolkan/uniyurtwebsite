@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#topBar{
+    background-color: #C31733 ;
+    color:#fdfdfd;
+    padding-top:13px;
+    text-align: center;
+}
+
+#topBar a{
+    text-decoration: none;
+    color:#fdfdfd;
+    background-color: #A40014;
+    padding:8px 12px;
+    transition: all 0.4s;
+}
+
+#topBar a:hover{
+    opacity: 0.9;
+}
+
