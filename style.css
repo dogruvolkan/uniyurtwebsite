@@ -48,7 +48,7 @@ body{
 }
 
 #menu .socialBtn:hover{
-    transition: all 0.9s; 
+    transition: all 1.2s; 
 }
 
 #menu .face:hover {
@@ -76,4 +76,10 @@ body{
     color:#fdfdfd;
     background-color: #0A66C2;
 }
+
+nav a{
+    color:black !important;
+}
+
+
 
