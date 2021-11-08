@@ -98,5 +98,30 @@ nav a{
     color:#B0B0B0;
 }
 
+footer{
+    background-color: #060606;
+    
+}
+
+footer a{
+    color:#BEBEBE;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: all 0.9s;
+}
+
+footer a:hover{
+    color:#BEBEBE;
+    opacity: 1;
+}
+
+footer p{
+    color:#BEBEBE;
+    font-size: 12px;
+    
+}
+
+
 
 
