@@ -21,6 +21,7 @@ body{
     background-color: #A40014;
     padding:8px 12px;
     transition: all 0.4s;
+    cursor:pointer;
 }
 
 #topBar a:hover{
@@ -86,6 +87,9 @@ nav a{
     width:25px;
     padding:5px;
 }
+
+
+
 
 
 
