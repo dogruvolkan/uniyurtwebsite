@@ -92,7 +92,11 @@ nav a{
     background-color: #F9F9F9;
 }
 
-
+#ogrenciYorum{
+    background-image: url("img/ogrenci-yorumlari-arkaplan.png");
+    background-size: auto;
+    color:#B0B0B0;
+}
 
 
 
