@@ -122,6 +122,18 @@ footer p{
     
 }
 
+#breadcrumb {
+    background-color: #F2F2F2;
+}
+
+#breadcrumb a{
+    font-size:12px;
+}
+
+#bizKimiz p{
+    font-size:15px;
+}
+
 
 
 
