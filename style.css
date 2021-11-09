@@ -130,10 +130,18 @@ footer p{
     font-size:12px;
 }
 
-#bizKimiz p{
+#bizKimiz p {
+    font-size:15px;
+}
+
+#degerlerimiz p ,#politikalarimiz p,#politikalarimiz li, #degerlerimiz li {
     font-size:15px;
 }
 
 
+
+#politikalarimiz .container li{
+    list-style:disc;
+}
 
 
