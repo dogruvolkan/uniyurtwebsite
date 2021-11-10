@@ -144,4 +144,23 @@ footer p{
     list-style:disc;
 }
 
+.alert strong , .alert a, .alert p{
+    font-size:15px;
+}
+
+#uniyurtAfyon p{
+    font-size:18px;
+}
+
+#kovidTedbir{
+    background-color: #F9F9F9;
+}
+
+#kovidTedbir .col-sm-5{
+    font-size: 21px;
+}
+
+#kovidTedbir button{
+    background-color: #C31733;
+}
 
