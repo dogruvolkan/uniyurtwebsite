@@ -164,3 +164,30 @@ footer p{
     background-color: #C31733;
 }
 
+
+#mutlulukNedenleri h3, #oda h3{
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+#oda ul{
+    background-color:#F8F8F8; 
+    padding: 10px;
+}
+
+#oda li{
+    padding: 10px;
+    list-style-type: none;  
+    display: inline-block;
+}
+
+#oda li:hover{
+    background-color: #EBEBEB;
+    
+}
+
+#oda a{   
+    color:black;
+    text-decoration: none;
+}
+
