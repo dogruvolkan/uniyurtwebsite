@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üniyurt Üniversite Öğrenci yurtları Senin yerin ayrı</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef6f197b7b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="topBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Yurt Ödemeleriniz uzaktan, temasız bir şekilde gerçekleştirebilirsiniz.</p>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#">
+                        Online (Temassız) Ödeme Yap
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div id="menu">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="img/uniyurt-logo.png" alt="" width=230px;>
+                </div>
+                <div class="col-sm-4">
+                    <a id="kayit" href="#">Online Ön Kayıt</a>
+                    <a class="socialBtn shadow face" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="socialBtn shadow twit" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="socialBtn shadow inst" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="socialBtn shadow yout" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="socialBtn shadow link" href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+
+                    </div>
+                    <div class="col-sm-9 ">
+                        <nav class="navbar navbar-expand-sm justify-content-end ">
+                            <div class="collapse navbar-collapse">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                                            data-bs-toggle="dropdown">Hakkımızda</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="bizkimiz.html" class="dropdown-item">Biz Kimiz?</a></li>
+                                            <li><a href="degerlerimiz.html" class="dropdown-item">Değerlerimiz</a></li>
+                                            <li><a href="politikalarimiz.html" class="dropdown-item">Politikalarımız</a>
+                                            </li>
+                                            <li><a href="#" class="dropdown dropdown-item">KVKK</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                                            data-bs-toggle="dropdown">Lokasyonlar</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="uniyurtAfyon.html" class="dropdown-item">Üniyurt Afyon</a></li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt İYTE</a></li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt Sakarya</a></li>
+                                            <li><a href="#" class="dropdown dropdown-item">Üniyurt Zonguldak</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                                            data-bs-toggle="dropdown">360 Sanal Tur</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown-item">Üniyurt Afyon-360 Sanal Tur</a></li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt İYTE-360 Sanal Tur</a></li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt Sakarya-360 Sanal Tur</a></li>
+                                            <li><a href="#" class="dropdown dropdown-item">Üniyurt Zonguldak-360 Sanal
+                                                    Tur</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                                            data-bs-toggle="dropdown">Galeri</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown-item">Üniyurt Afyon</a></li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt İYTE</a></li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt Sakarya</a></li>
+                                            <li><a href="#" class="dropdown dropdown-item">Üniyurt Zonguldak</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                                            data-bs-toggle="dropdown">S.S.S</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown-item">Üniyurt Afyon-Sıkça Sorulan
+                                                    Sorular</a>
+                                            </li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt İYTE-Sıkça Sorulan Sorular</a>
+                                            </li>
+                                            <li><a href="#" class="dropdown-item">Üniyurt Sakarya-Sıkça Sorulan
+                                                    Sorular</a>
+                                            </li>
+                                            <li><a href="#" class="dropdown dropdown-item">Üniyurt Zonguldak-Sıkça
+                                                    Sorulan
+                                                    Sorular</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="etkinlik.html" class="nav-link">Etkinlikler</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                                            data-bs-toggle="dropdown">Medya</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="basin.html" class="dropdown-item">Basında Biz</a>
+                                            </li>
+                                            <li><a href="yurtTv.html" class="dropdown-item">Üniyurt Tv</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="duyuru.html" class="nav-link">Duyurular</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-link">İletişim</a>
+                                    </li>
+                                </ul>
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="afyonsss">
+        <div id="breadcrumb">
+            <div class="row py-2">
+                <div class="col-sm-9 ps-5 ">
+                    <h3>Üniyurt Afyon-Sıkça Sorulan Sorular</h3>
+                </div>
+                <div class="col-sm-3 ">
+                    <nav style="--bs-breadcrumb-divider: '/';">
+                        <ol class="breadcrumb float-end pe-5">
+                            <li class="breadcrumb-item">
+                                <a class="text-decoration-none" href="index.html">Anasayfa</a>
+                            </li>
+                            <li class="breadcrumb-item active">
+                                <a class="text-decoration-none" href="afyonsss.html">Üniyurt Afyon-S.S.S
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-sm-8">
+                    <div class="accordion accordion-flush " id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Afyonkarahisar’da kaç üniversite bulunmaktadır?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Afyon Kocatepe Üniversitesi (ANS Kampüsü, Karahisari Kampüsü, Meslek Yüksek
+                                        Okulu) ve Afyon Sağlık Bilimleri Üniversitesi (Ali Çetinkaya Kampüsü) olmak
+                                        üzere iki üniversite bulunmaktadır.</small>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingtwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsetwo" aria-expanded="false"
+                                    aria-controls="flush-collapsetwo">
+                                    Yurdunuzdan diğer kampüslere ve çarşıya ulaşım var mı, mesafeleri nedir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingtwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Ahmet Necdet Sezer Kampüsü için yurdumuzun önüne kadar gelen ring (kampüs içi
+                                        ulaşım) araçlarından faydalanarak fakültelere ulaşım sağlayabilirsiniz. Afyon
+                                        Sağlık Bilimleri Üniversitesi’ne (AÇK) ücretsiz servisimiz bulunmaktadır.
+                                        Üniyurt ile Ali Çetinkaya Kampüsü 12 km olup servisle 15 dakikada
+                                        ulaşabilirsiniz. Ayrıca Afyon şehir merkezi için yurt yönetiminin belirlediği
+                                        saatlerde gidiş ve dönüş olmak üzere ücretsiz servislerimiz bulunmaktadır.
+                                        Dilerseniz yurdumuzun önüne kadar gelen toplu taşıma araçlarından da
+                                        faydalanabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingthree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsethree" aria-expanded="false"
+                                    aria-controls="flush-collapsethree">
+                                    Yurdu ne zaman görebilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsethree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingthree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Tesisimiz 7/24 açık olup “Kayıt Destek Ekibimiz” aracılığı ile hafta sonu da
+                                        dahil olmak üzere dilediğiniz an gezebilirsiniz.
+                                        Bunun yanı sıra <a href="https://www.uniyurt.com.tr">"www.uniyurt.com.tr"</a>
+                                        adresini
+                                        ziyaret ederek
+                                        tesisimizi online
+                                        olarak da ziyaret edebilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                    aria-controls="flush-collapsefour">
+                                    Üniyurt’ta yapılan etkinlikler nelerdir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Yurdumuzda çeşitli sosyal sorumluluk projeleri, turnuvalar, şehir turları,
+                                        kültürel geziler, sinema gösterileri, parti organizasyonları, sergiler ve doğa
+                                        yürüyüşleri gibi öğrencilerimizin farklı zevklerine ve hobilerine hitap edecek
+                                        etkinlikler düzenlenmektedir.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    Üniyurt’ta sosyal yaşam nasıldır?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Üniyurt’ta senin yerin ayrı! Burada öğrencilerimizin yurttan çıkmak
+                                        istemeyecekleri spor alanları, eğlence mekânları ve aktivitenin yanı sıra, etüt
+                                        salonlarında arkadaşlarıyla çalışma imkanları da vardır. Arzu eden
+                                        öğrencilerimiz ücretsiz servislerimizi kullanarak şehir merkezine
+                                        gidebilirler.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsesix" aria-expanded="false"
+                                    aria-controls="flush-collapsesix">
+                                    Yemek ihtiyacımı nasıl karşılayabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsesix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Yurdumuzda yemekhane hizmeti verilmektedir. GSB yönetmeliğinde belirtildiği
+                                        üzere konaklama hizmetimize kahvaltı dahildir. Akşam yemeğini yurtta yemek
+                                        isterseniz ayrıca satın alabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingseven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseseven" aria-expanded="false"
+                                    aria-controls="flush-collapseseven">
+                                    Yemek servisi kaçta yapılıyor?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseseven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><b>Sabah Kahvaltısı</b></p>
+                                    <p>Hafta içi: 07.00 – 12.00</p>
+                                    <p>Hafta sonu: 08.00 – 13.00</small>
+                                    <p class="pt-2"><b>Akşam Yemeği</b></p>
+                                    <p>Hafta içi: 18.00 – 23.30</small>
+                                    <p>Hafta sonu: 18.00 – 21.00</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingeight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseeight" aria-expanded="false"
+                                    aria-controls="flush-collapseeight">
+                                    Yurda giriş saatleri nelerdir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseeight" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Yurda hafta içi saat 24:00’a kadar, hafta sonu (Cuma-Cumartesi) saat 01:00’a
+                                        kadar giriş yapabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingnine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsenine" aria-expanded="false"
+                                    aria-controls="flush-collapsenine">
+                                    Yurda veya odaya ziyaretçi kabul ediliyor mu?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsenine" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Hafta içi ve Hafta sonu 08:00 – 22:00 saatleri arasında tüm ziyaretçilerinizi
+                                        ortak alanlarımızda misafir edebilirsiniz. Pandemi koşullarından dolayı
+                                        ziyaretçilerimizi bina içerisine ve odalarınıza kabul edemiyoruz.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingten">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseten" aria-expanded="false"
+                                    aria-controls="flush-collapseten">
+                                    Yurt fiyatlarınızı nasıl öğrenebilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseten" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>0 272 228 14 44 numaralı telefondan “Kayıt Destek Ekibimize” ulaşarak yurt
+                                        ücretleri ve ödeme tipleri ile ilgili bilgi alabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingeleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseeleven" aria-expanded="false"
+                                    aria-controls="flush-collapseeleven">
+                                    Fiyatlarınıza dâhil olan hizmetler nelerdir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseeleven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingeleven" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Fiyatlarımıza dahil olan hizmetlerimize ilgilendiğiniz lokasyonun sayfasından
+                                        detaylı olarak ulaşabilirsiniz.
+
+                                        Lokasyon sayfası için buraya tıklayın.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingtwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsetwelve" aria-expanded="false"
+                                    aria-controls="flush-collapsetwelve">
+                                    Ekstra hizmetler nelerdir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwelve" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingtwelve" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Fitness Salonu</li>
+                                        <li>Oyun salonu</li>
+                                        <li>Market</li>
+                                        <li>Fastfood</li>
+                                        <li>Dormmeet Cafe</li>
+                                        <li>Çamaşırhane ve Ütü</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne1" aria-expanded="false"
+                                    aria-controls="flush-collapseOne1">
+                                    Oda tipleriniz nelerdir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Aşağıda bilgileri verilen oda tiplerine ilgilendiğiniz lokasyonun sayfasından
+                                        detaylı olarak ulaşabilirsiniz.
+                                        Lokasyon sayfası için buraya tıklayın.</small>
+                                    <ul>
+                                        <li>1 Kişilik Oda</li>
+                                        <li>1 Kişilik Özel Oda</li>
+                                        <li>2 Kişilik Oda</li>
+                                        <li>3 Kişilik Oda</li>
+                                        <li>3 Kişilik Köşe Oda</li>
+                                        <li>4 Kişilik Oda</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingtwo2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsetwo2" aria-expanded="false"
+                                    aria-controls="flush-collapsetwo2">
+                                    Odalarınız kaç m²?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwo2" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingtwo2" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>1 Kişilik Oda: 24,4 m²</li>
+                                        <li>1 Kişilik Özel Oda: 14,5 m²</li>
+                                        <li>2 Kişilik Oda: 24,4 m²</li>
+                                        <li>3 Kişilik Oda: 28,7 m²</li>
+                                        <li>3 Kişilik Köşe Oda: 24,7 m²</li>
+                                        <li>4 Kişilik Oda: 24,4 m²</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingthree3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsethree3" aria-expanded="false"
+                                    aria-controls="flush-collapsethree3">
+                                    Odalarda demirbaş olarak neler mevcuttur?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsethree3" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingthree3" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Gardırop, çalışma masası, komodin, çalışma koltuğu, yatak, kitaplık, dâhilî
+                                        telefon ve buzdolabı mevcuttur.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfour4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour4" aria-expanded="false"
+                                    aria-controls="flush-collapsefour4">
+                                    Oda seçimimi nasıl yapabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour4" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfour4" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Online ön kayıt sırasında oda tipi seçiminizi yaptıktan ve asıl kayıt
+                                        işlemlerini tamamladıktan sonra Öğrenci İşleri Yetkiliniz bölümünüze göre en
+                                        uygun odaya yerleştirilmenizi sağlayacaktır.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingfive5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive5" aria-expanded="false"
+                                    aria-controls="flush-collapsefive5">
+                                    Dönem içerisinde oda tipimi değiştirebilir miyim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive5" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive5" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Öğrenci İşleri Yetkiliniz tercih ettiğiniz oda tipi için boş oda olup
+                                        olmadığını teyit ettikten sonra fiyat farkına göre değişim yapabilirsiniz. Tabii
+                                        önce yurt yönetiminin bu değişim için onay vermesi gerekmektedir.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingsix6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsesix6" aria-expanded="false"
+                                    aria-controls="flush-collapsesix6">
+                                    Oda yerleştirmeleri nasıl yapılmaktadır?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsesix6" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingsix6" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Tesisimiz; kız ve erkek olmak üzere 2 ayrı bölümden oluşmaktadır.
+
+                                        Kız ve erkek öğrenciler mutlaka ayrı bloklarda konaklayacak şekilde
+                                        yerleştirilir.
+
+                                        Öğrenci ilk kayıt sırasında aynı odada kalmak istediği oda arkadaşını
+                                        belirtebilir. Belirtmediği takdirde; öğrenim durumu (1’inci ve 2’nci öğretim,
+                                        hazırlık sınıfı (uygun), yüksek lisans), fakültesi ve bölümü göz önüne alınarak,
+                                        ders çalışma esasları benzer olan diğer öğrencilerle aynı kat ve odalarda
+                                        kalacak şekilde yerleştirilmektedir.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingseven7">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseseven7" aria-expanded="false"
+                                    aria-controls="flush-collapseseven7">
+                                    Yurt binalarınız deprem ve yangına karşı korunaklı mı?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseseven7" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingseven7" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Tesisimiz dünya standartlarında ve mevcut deprem yönetmeliğine uygun olarak
+                                            inşa edilmiştir. Deprem dayanıklılık test raporlarına sahiptir. Ayrıca GSB
+                                            ve Üniversite tarafından belirli aralıklarla denetlenmektedir.</li>
+                                        <li>Tesisimiz en son yangın yönetmeliği esas alınarak hazırlanan yangın
+                                            dolaplarının yanı sıra, her odada sprink (fıskiye) tipi yangın söndürme
+                                            sistemleri, yangın algılama alarm sistemleri ve her odada bulunan duman
+                                            dedektörlerine sahiptir.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingeight8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseeight8" aria-expanded="false"
+                                    aria-controls="flush-collapseeight8">
+                                    Üniyurt’a nasıl kayıt yaptırabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseeight8" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingeight8" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Kaydınızı iki şekilde yaptırabilirsiniz.</small>
+                                    <p><b>Online Ön Kayıt</b></p>
+                                    <p>Online ön kayıt yaptırarak odanızı herkesten önce garanti edebilirsiniz. Online
+                                        ön kayıt için izlemeniz gereken adımlar:</p>
+
+                                    <ul>
+                                        <li>onkayit.uniyurt.com.tr web adresimize giriniz.</li>
+                                        <li>Kişisel bilgilerinizi giriniz, kayıt olmak istediğiniz lokasyonu ve tercih
+                                            ettiğiniz oda tipini seçiniz.</li>
+                                        <li>Formda istenilen bilgileri eksiksiz olarak doldurup kaydınızı başarılı bir
+                                            şekilde tamamlayınız.</li>
+                                        <li>Tarafınıza bilgilendirme sms’i ve e-mail’i gelecektir. En kısa sürede
+                                            lokasyondan yetkili kişi sizi arayarak Asıl Kaydınızı tamamlamanız için
+                                            destek olacaktır.</li>
+                                        <li>Sözleşme ve Kayıt Formunu eksiksiz doldurarak mail (afyon@uniyurt.com.tr)
+                                            yolu ile tarafımıza iletiniz.</li>
+                                        <li>Kayıt işleminizi “Kayıt Destek Ekibimizden” kontrol ediniz. Kız Öğrenci
+                                            İşleri Yetkilimize (0507 089 92 68) ve Erkek Öğrenci İşleri Yetkilimize
+                                            (0530 640 44 19) direkt ulaşarak bilgi alabilirsiniz.</li>
+                                        <li>Bu işlemler tamamlandıktan sonra Asıl Kaydınız sorunsuz olarak
+                                            gerçekleşecektir.</li>
+                                    </ul>
+
+                                    <p><b>Yüz Yüze Kayıt</b></p>
+                                    <ol>
+                                        <li>Güvenliğe uğrayarak misafir giriş kaydınızı yaptırınız.</li>
+                                        <li>Dilerseniz yurt tanıtım ekibimizle birlikte tesisi (odalar, çamaşırhane,
+                                            bina özellikleri, sosyal alanlar vb.) gezebilirsiniz.</li>
+                                        <li>Oda tipleri hakkında görüşüp, ödeme seçenekleri ile ilgili karar vermek için
+                                            “Kayıt Destek Ekibimiz” size yardımcı olacaktır.</li>
+                                        <li>Karar vermiş olduğunuz oda tipi için kayıt işlemlerini başlatarak; Sözleşme
+                                            ve Kayıt Formunu eksiksiz doldurunuz.</li>
+                                        <li>Kayıt ekibimizden aldığınız form ile birlikte depozito ve yurt ödeme
+                                            işlemleriniz için Muhasebe departmanına uğrayınız.</li>
+                                        <li>Bu işlemler tamamlandıktan sonra Asıl Kaydınız sorunsuz olarak
+                                            gerçekleşecektir.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingnine9">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsenine9" aria-expanded="false"
+                                    aria-controls="flush-collapsenine9">
+                                    Neden depozito alıyorsunuz?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsenine9" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingnine9" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Depozito ödemesini, öğrencilerimize odalarında tahsis edilen demirbaş
+                                        eşyaları koruma amacıyla alıyoruz. Akademik takvim sonunda oda teslimi yaparken,
+                                        yapılan kontrollerde demirbaş eşyada herhangi bir zarar görülmezse tamamını, bir
+                                        zarar varsa bedeli düşülerek kalanı, Temmuz ayının son iş gününde öğrencinin
+                                        hesap numarasına iade yapılır.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingten10">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseten10" aria-expanded="false"
+                                    aria-controls="flush-collapseten10">
+                                    Yurt ödemelerimi nasıl yapabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseten10" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingten10" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Yurt ödemelerinizi Peşin, Havale, Kredi Kartı (10 Taksit) ve Senetli (10
+                                        Taksit) olarak yapabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingeleven11">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseeleven11" aria-expanded="false"
+                                    aria-controls="flush-collapseeleven11">
+                                    Kredi kartı taksitli ödemelerimizde hangi bankaları kullanabiliriz?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseeleven11" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingeleven11" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Garanti Bankası</li>
+                                        <li>Halk Bank</li>
+                                        <li>Finansbank</li>
+                                        <li>Yapı Kredi Bankası</li>
+                                        <li>İş Bankası</li>
+                                        <li>Akbank</li>
+                                        <li>Denizbank</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingtwelve12">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsetwelve12" aria-expanded="false"
+                                    aria-controls="flush-collapsetwelve12">
+                                    Ödemelerimizi hangi banka hesabına yapabiliriz?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwelve12" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingtwelve12" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><b>Üniyurt Afyon Banka Hesap Bilgileri:</b></p>
+                                    <p>Firma Adı: ASTRA YAPI VE İŞLETMECİLİĞİ SAN. TİC. A.Ş.</p>
+                                    <p>Banka Adı: İş Bankası
+                                        IBAN: TR73 0006 4000 0011 3930 0296 46</p>
+                                    <p>Banka Adı: Ziraat Bankası
+                                        IBAN: TR36 0001 0011 8761 5243 2750 01</p>
+                                    <p>Banka Adı: Garanti Bankası
+                                        IBAN: TR98 0006 2001 5840 0006 2933 21</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne13">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne13" aria-expanded="false"
+                                    aria-controls="flush-collapseOne13">
+                                    Ödemelerimizi sadece bankadan mı yapabiliyoruz?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne13" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne13" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Ödemelerinizi, muhasebe departmanımızdan ilgili evrak karşılığında havale ya
+                                        da kredi kartı ile de gerçekleştirebilirsiniz. Sadece ilk kayıt ve kabul
+                                        sırasında nakit para alınabilir.</small>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingtwo14">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsetwo14" aria-expanded="false"
+                                    aria-controls="flush-collapsetwo14">
+                                    Yurt ödeme tipimi değiştirebilir miyim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwo14" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingtwo14" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Ödeme tipini değiştirme talebiniz olduğunda aradaki fiyat farkını ödeyerek ya
+                                        da geri alarak farklı ödeme tiplerinden faydalanabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingthree15">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsethree15" aria-expanded="false"
+                                    aria-controls="flush-collapsethree15">
+                                    Yurdunuza ne zaman giriş yapabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsethree15" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingthree15" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Akademik takvime bağlı olarak, Eğitim-Öğretim başlama tarihinden 2 gün önce
+                                        yurdumuza giriş yapabilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfour16">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour16" aria-expanded="false"
+                                    aria-controls="flush-collapsefour16">
+                                    Üniyurt’tan ne kadar süre ile faydalanabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour16" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfour16" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Üniyurt’tan akademik dönem boyunca faydalanabilirsiniz. Bunun dışında yurtta
+                                        kalma talepleri yurdun bakım-onarım faaliyetlerini aksatmaması ve yurt
+                                        yönetiminin uygun görmesi halinde ücretle mümkün olmaktadır.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingfive17">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive17" aria-expanded="false"
+                                    aria-controls="flush-collapsefive17">
+                                    Yurda giriş yaparken yapmam gereken işlemler nelerdir?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive17" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive17" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Öğrenci İşleri Yetkililerimize uğrayarak oda numaranızı öğrenin. “Oda Zimmet
+                                        Formunu” eksiksiz olarak doldurup, imzaladıktan sonra oda anahtarınızı teslim
+                                        alabilirsiniz. “Oda Zimmet Formu” ile birlikte giderek bloğunuzda görevli
+                                        personelimizden yastığınızı, nevresim takımınızı, yorganınızı ve sandalyenizi
+                                        teslim aldıktan sonra odanıza yerleşebilirsiniz.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingsix18">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsesix18" aria-expanded="false"
+                                    aria-controls="flush-collapsesix18">
+                                    Yurda gelirken yanımıza hangi eşyaları almalıyız?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsesix18" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingsix18" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Öğrencilerimize yastık, yorgan ve nevresim takımları yurt yönetimi tarafından
+                                        tahsis edilmektedir. Öğrencilerimiz dilerse, kendi nevresim takımını, kişisel
+                                        bakım ürünlerini, giyim eşyalarını ve diğer kişisel malzemelerini
+                                        getirebilirler.
+
+                                        NOT: Nevresimlerimiz on beş günde bir görevli personel tarafından değiştirilir
+                                        ve haftada iki kez oda temizliği yapılır.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingseven19">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseseven19" aria-expanded="false"
+                                    aria-controls="flush-collapseseven19">
+                                    Yıl sonunda yurttan nasıl çıkış yapabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseseven19" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingseven19" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>Öğrenci işlerinden yurt çıkış formunu alın.</li>
+                                        <li>Bu form ile görevli personele oda demirbaş kontrollerini yaptırıp; yastık,
+                                            yorgan, nevresim takımı ve sandalyenizi teslim edin.</li>
+                                        <li>Son olarak öğrenci işlerine oda anahtarınızı ve formu teslim ettikten sonra
+                                            yurttan çıkış yapabilirsiniz.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingeight20">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseeight20" aria-expanded="false"
+                                    aria-controls="flush-collapseeight20">
+                                    Depozito iademi ne zaman alabilirim?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseeight20" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingeight20" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <small>Akademik yıl sonunda yurtla ilişiğini kesen öğrencilerin depozito ödemeleri
+                                        Temmuz ayının son iş gününde yapılır.</small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-sm-1">
+                    <a href="#"><img src="img/uniyurt-footer-logo-11082019.png" alt=""></a>
+                </div>
+                <div class="col-sm-6 ">
+                    <a class="ps-3" href="#">Üniyurt Afyon</a>
+                    <a class="ps-2" href="#"> Üniyurt İYTE</a>
+                    <a class="ps-2" href="#"> Üniyurt Sakarya</a>
+                    <a class="ps-2" href="#"> Üniyurt Zonguldak</a>
+                </div>
+                <div class="col-sm-5">
+                    <p>Üniyurt, internet sitesindeki fiyatları ve kampanyaları değiştirme ya da dilediğinde sonlandırma
+                        hakkını saklı tutar.</p>
+                    <p> ASTRA Yapı ve İşletmeciliği © 2017 Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
