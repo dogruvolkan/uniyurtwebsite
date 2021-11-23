@@ -205,3 +205,75 @@ footer p{
     width: 650px;
 }
 
+#afyonsss .location{
+    padding:15px 40px;
+    width: 100%;
+    background-color: #C31733;
+    transition: all 0,8s;
+}
+
+#afyonsss .location a{
+   text-decoration: none;
+    color:#fff ;
+   
+   
+}
+
+#afyonsss .location:hover{
+    text-decoration: none;
+     color:#fff ;
+     opacity: 0.9;
+     cursor: pointer;
+ }
+
+ #afyonsss .card{
+     margin-top: 40px;
+     padding: 15px 20px;
+     width: 100%;
+ }
+
+ #afyonsss a.phone{
+     display: inline-block;
+     text-align: center;
+     color:black;
+ }
+
+ #afyonsss input[type="submit"]{
+     color:#fff;
+     background-color: #C21632;
+     width: 100%;
+     border-radius: 0;
+     margin-top: 10px;
+ }
+
+ #afyonsss .accordion-item {
+   padding-bottom: 15px;
+   
+}
+ #afyonsss .accordion-item button{
+     background-color: #F4F4F4 !important;
+     color:#C21632 !important;
+     outline: none !important;
+     border-left:3px solid #C21632 ;
+ }
+
+ #afyonsss .accordion-item button:focus{
+    background-color:#C21632 !important ;
+    color:#fff !important;
+}
+
+ .accordion-button:focus {
+    z-index: 3;
+    border-color: #C21632 !important; 
+    outline: 0;
+    box-shadow: none !important; 
+    
+}
+
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none !important; 
+}
+
+
