@@ -191,6 +191,10 @@ footer p{
     text-decoration: none;
 }
 
+#contact li{
+    font-size:13px;
+}
+
 #contact  input[type="submit"]{
     background-color: #C21632;
     color:#fff;
@@ -269,9 +273,11 @@ footer p{
 }
 
 
-.form-control:focus {
+.form-control:focus , .form-select:focus{
     outline: 0;
     box-shadow: none !important; 
 }
 
-
+textarea{
+    resize: none !important;
+}
