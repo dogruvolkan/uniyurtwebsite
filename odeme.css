@@ -49,7 +49,7 @@ nav .btn-outline:hover{
   opacity: 0.8;
 }
 
-.form-control:focus {
+.form-control:focus , .form-select{
     outline: 0;
     box-shadow: none !important; 
 }
@@ -95,4 +95,41 @@ footer a{
 footer a:hover{
     color:#fff;
     text-decoration: underline;
+}
+
+#destek{
+   position: relative;
+   margin:auto;
+}
+
+#destek i{
+    color:#ddd;
+    
+}
+
+#destek input[type="submit"]{
+    background-color: #53B150;
+    color: #fff;
+    width: 120px;
+    transition: all 0.8s;
+}
+
+#destek input[type="submit"]:hover{
+    opacity: 0.8;
+}
+
+
+#destek li:last-child{
+    border-bottom: 2px dotted #ddd;
+    width: 400px;
+}
+
+#destek li{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+#destek li a{
+    color:#fff;
+    text-decoration: none;
 }
