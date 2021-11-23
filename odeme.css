@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C02740;
+}
+
+nav a{
+    color:#fff !important;
+   
+}
+
+
+
+nav .btn-outline{
+    border:1px solid #fff !important;
+    border-radius: 20px !important;
+    transition: all 0.8s;
+}
+
+nav .btn-outline:hover{
+    background-color: #fff;
+    color:black !important;
+}
+
+.card{
+    max-width: 650px;
+    padding:30px 30px;
+    position: relative;
+    margin: auto;
+}
+
+.card small{
+    padding-bottom: 30px;
+}
+
+#odeme input[type="submit"]{
+    background-color:#53B150 ;
+    color:#fff;
+    margin-top: 20px;
+    transition: all 0.8s;
+    width: 120px;
+}
+
+#odeme input[type="submit"]:hover{
+  opacity: 0.8;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none !important; 
+}
+
+#odeme button{
+    background-color: #53B150;
+    color:#fff;
+    border:none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 5px;
+    transition: all .8s;
+}
+
+#odeme button:hover{
+    opacity: 0.9;
+}
+
+#odeme button a{
+    color:#fff;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #B81A30;
+    color:#fff;
+    font-size:14px;
+    padding:40px 50px;
+}
+
+footer li{
+    display: inline;
+}
+
+footer a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+    transition: all 0.8s;
+}
+
+footer a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
