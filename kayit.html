@@ -44,11 +44,11 @@
 
     <div id="kayit">
         <h1 class="text-center">Online <b>Ön Kayıt</b> Sistemi</h1>
-        <p class="text-center">Online Ön kayıt formunu doldur, hemen yerini ayırt!</p>
+        <p class="text-center text-white">Online Ön kayıt formunu doldur, hemen yerini ayırt!</p>
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="card">
                         <div class="row">
                             <div class="col-sm-9 ">
@@ -74,40 +74,35 @@
                             <input type="checkbox">
                             <small><a href="#"> Gizlilik Politikası'nı, Aydınlatma Metni'ni ve Açık Rıza Formu'nu okudum
                                     ve onaylıyorum.</a></small>
-                            <input type="submit" class="btn" value="Devam et">
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-sm-9 ">
-                                <h5>Oda Seçimi</h5>
-                                <p>Lütfen oda tipini seçiniz.</p>
+
+                            <div class="row pt-5">
+                                <div class="col-sm-9 ">
+                                    <h5>Oda Seçimi</h5>
+                                    <p>Lütfen oda tipini seçiniz.</p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fas fa-bed fa-4x"></i>
+                                </div>
                             </div>
-                            <div class="col-sm-3">
-                                <i class="fas fa-bed fa-4x"></i>
+                            <p class="info">Öğrenci Bilgileri</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p class="gri">isim</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="gri">email</p>
+                                </div>
                             </div>
-                        </div>
-                        <p class="info">Öğrenci Bilgileri</p>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="gri">isim</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p class="gri">telefon</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="gri">lokasyon</p>
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <p class="gri">email</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="gri">telefon</p>
-                            </div>
-                            <div class="col-sm-6">
-                                <p class="gri">lokasyon</p>
-                            </div>
-                        </div>
-                        <p class="info">Oda Tipleri</p>
-                        <form action="">
+                            <p class="info">Oda Tipleri</p>
+
                             <select name="cinsiyet" id="cinsiyet" class="form-select">
                                 <option value="cinsiyet">Cinsiyet</option>
                                 <option value="kız">Kız</option>
@@ -125,32 +120,66 @@
                             <div class="gri text-center mt-3">
                                 <ul>
                                     <li>
-                                        <b>Depozite Bedeli</b>
+                                        <b class="pt-3 d-block">Depozite Bedeli</b>
                                     </li>
                                     <li class="text-success">
-                                        <b>0₺</b>
+                                        <b class="fs-4">0₺</b>
                                     </li>
                                 </ul>
                             </div>
-                            <button class="btn btn-secondary mt-3">Geri</button>
-                            <input type="submit" class="btn w-25 " value="Devam et">
+                            <div class="row mt-5">
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-sm-9 ">
+                                            <h5>Ödeme Bilgileri</h5>
+                                            <p>Lütfen bilgileri eksiksiz doldurun</p>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <i class="fas fa-credit-card fa-4x"></i>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 ">
+                                                <input type="text" placeholder="T.C kimlik numarası"
+                                                    class="form-control mt-3">
+                                                <input type="text" placeholder="İl" class="form-control mt-3">
+                                            </div>
+                                            <div class="col-sm-6 mt-3">
+                                                <select name="" id="" class="form-select">
+                                                    <option value="cinsiyet">Cinsiyet</option>
+                                                    <option value="kadin">Kadın</option>
+                                                    <option value="erkek">Erkek</option>
+                                                </select>
+                                                <input type="text" placeholder="İlçe" class="form-control mt-3">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 mt-3">
+                                                <textarea class="form-control " name="" id="" cols="30" rows="5"
+                                                    placeholder="Adres"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 mt-3">
+                                                <input type="text" class="form-control" placeholder="Üniversite">
+                                                <input type="text" class="form-control mt-3" placeholder="Bölüm">
+                                            </div>
+                                            <div class="col-sm-6 mt-3">
+                                                <input type="text" class="form-control" placeholder="Bölüm">
+                                                <select name="" id="" class="form-select mt-3">
+                                                    <option value="sinif">Sınıf</option>
+                                                    <option value="hazirlik">Hazırlık</option>
+                                                    <option value="bir">1. sınıf</option>
+                                                    <option value="iki">2. sınıf</option>
+                                                    <option value="uc">3. sınıf</option>
+                                                    <option value="dort">4. sınıf</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <input class="btn mt-4 " type="submit" value="Kayıt Oluştur">
+                                    </div>
+                                </div>
+                            </div>
                         </form>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-sm-9 ">
-                                <h5>Ödeme Bilgileri</h5>
-                                <p>Lütfen bilgileri eksiksiz doldurun</p>
-                            </div>
-                            <div class="col-sm-3">
-                                <i class="fas fa-credit-card fa-4x"></i>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
