@@ -240,7 +240,7 @@ footer p{
      color:black;
  }
 
-  input[type="submit"]{
+input[type="submit"]{
      color:#fff;
      background-color: #C21632;
      width: 100%;
@@ -310,8 +310,54 @@ textarea{
 
 #iletisim li{
     list-style-type: none;
+    font-size: 14px;
 }
 
 #iletisim span{
     padding-left:10px;
 }
+
+#iletisim a{
+    width:50px;
+    height: 50px;
+    border:none;
+    color:#fff;
+    transition: all 0.8s;
+}
+
+#iletisim a:hover{
+    opacity: 0.9;
+}
+
+
+#iletisim .f{
+    background-color: #3B5A9A;
+    font-size:11px;
+    padding: 8px 10px;
+}
+
+#iletisim .t{
+    background-color: #1AA9E1;
+    font-size:11px;
+    padding: 8px ;
+}
+
+#iletisim .i{
+    background-color: #7C4A3A;
+    font-size:11px;
+    padding: 8px ;
+}
+
+#iletisim .l{
+    background-color: #0073B2;
+    font-size:11px;
+    padding: 9px ;
+}
+
+#iletisim input[type="submit"]{
+    border:none;
+    padding: 5px;
+    width:30%;
+}
+
+
