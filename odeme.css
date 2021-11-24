@@ -137,3 +137,41 @@ footer a:hover{
 textarea{
     resize: none !important;
 }
+
+
+#kayit .card{
+    padding:30px 20px;
+}
+
+#kayit a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+}
+
+#kayit i{
+    color:#ddd;
+}
+
+#kayit input[type="submit"]{
+    background-color: #53B150;
+    color:#fff;
+    float: right !important;
+    margin-top: 17px;
+}
+
+#kayit .info{
+    background-color: #B81A30;
+    color:#fff;
+    padding: 6px 10px;
+}
+
+.gri{
+    background-color: #F1F1F1;
+    padding: 6px;
+}
+
+#kayit li{
+    list-style-type: none;
+}
+
