@@ -281,3 +281,37 @@ footer p{
 textarea{
     resize: none !important;
 }
+
+#mesafe h4{
+    padding:20px;
+    border-bottom:2px solid black;
+}
+
+#mesafe li{
+    list-style-type: none;
+}
+
+#mesafe span{
+    
+    padding-left: 20px;
+}
+
+#sorular{
+    background-color: #F9F9F9;
+    padding:30px 30px;
+}
+
+#sorular .btn{
+    background-color:#C31733;
+    color:#fff;
+    border-radius: none ;
+   
+}
+
+#iletisim li{
+    list-style-type: none;
+}
+
+#iletisim span{
+    padding-left:10px;
+}
