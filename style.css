@@ -44,13 +44,11 @@ body{
 #menu .socialBtn{  
     border-radius: 50%;
     color:#333333;
-    padding:9px;
+    padding:8px;
     margin-left:3px; 
+    transition: all 1.4s; 
 }
 
-#menu .socialBtn:hover{
-    transition: all 1.2s; 
-}
 
 #menu .face:hover {
     color:#fdfdfd;
@@ -94,9 +92,6 @@ nav li:hover{
 nav a:hover{
     color:#fff !important;
 }
-
-
-
 
 
 
