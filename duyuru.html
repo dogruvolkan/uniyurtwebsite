@@ -68,32 +68,35 @@
                                             <li><a href="degerlerimiz.html" class="dropdown-item">Değerlerimiz</a></li>
                                             <li><a href="politikalarimiz.html" class="dropdown-item">Politikalarımız</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </li>
 
                                     <li class="nav-item dropdown pe-2">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">Lokasyonlar</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="uniyurtAfyon.html" class="dropdown-item">Üniyurt Afyon</a></li>
-                                                <li><a href="uniyurtIyte.html" class="dropdown-item">Üniyurt İYTE</a></li>
-                                                <li><a href="uniyurtSakarya.html" class="dropdown-item">Üniyurt Sakarya</a></li>
-                                                <li><a href="uniyurtZonguldak.html" class="dropdown dropdown-item">Üniyurt Zonguldak</a> </li>
-                                            </ul>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="uniyurtAfyon.html" class="dropdown-item">Üniyurt Afyon</a></li>
+                                            <li><a href="uniyurtIyte.html" class="dropdown-item">Üniyurt İYTE</a></li>
+                                            <li><a href="uniyurtSakarya.html" class="dropdown-item">Üniyurt Sakarya</a>
+                                            </li>
+                                            <li><a href="uniyurtZonguldak.html" class="dropdown dropdown-item">Üniyurt
+                                                    Zonguldak</a> </li>
+                                        </ul>
                                     </li>
 
-                                   
+
 
                                     <li class="nav-item dropdown pe-2">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">Galeri</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="afyonimg.html" class="dropdown-item">Üniyurt Afyon</a></li>
-                                                <li><a href="iyteimg.html" class="dropdown-item">Üniyurt İYTE</a></li>
-                                                <li><a href="sakaryaimg.html" class="dropdown-item">Üniyurt Sakarya</a></li>
-                                                <li><a href="zonguldakimg.html" class="dropdown dropdown-item">Üniyurt Zonguldak</a> </li>
-                                            </ul>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="afyonimg.html" class="dropdown-item">Üniyurt Afyon</a></li>
+                                            <li><a href="iyteimg.html" class="dropdown-item">Üniyurt İYTE</a></li>
+                                            <li><a href="sakaryaimg.html" class="dropdown-item">Üniyurt Sakarya</a></li>
+                                            <li><a href="zonguldakimg.html" class="dropdown dropdown-item">Üniyurt
+                                                    Zonguldak</a> </li>
+                                        </ul>
                                     </li>
 
                                     <li class="nav-item dropdown pe-2">
@@ -188,6 +191,8 @@
         </div>
     </div>
 
+    
+
 
 
     <footer>
@@ -219,27 +224,28 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script>
-        $(document).ready(function(){
-            $(window).scroll(function(){
-                if($(window).scrollTop()>100){
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
                     $('.fa-angle-up').css({
-                        "opacity":"1","pointer-events":"auto"
+                        "opacity": "1", "pointer-events": "auto"
                     });
                 }
-                else{
+                else {
                     $('.fa-angle-up').css({
-                        "opacity":"0","pointer-events":"none"
+                        "opacity": "0", "pointer-events": "none"
                     });
                 }
             });
-            $('.fa-angle-up').click(function(){
-                $('html').animate({scrollTop:0},500)
+            $('.fa-angle-up').click(function () {
+                $('html').animate({ scrollTop: 0 }, 500)
             })
         })
     </script>
+    
 
 
 

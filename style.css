@@ -78,26 +78,26 @@ body{
 }
 
 
-nav a{
+#menu nav a{
     color:#060606 !important;
     transition: all 0.5s;
 }
 
-nav a:hover{
+#menu nav a:hover{
     color:#fff !important;
 }
 
 
-nav li {
+#menu nav li {
     transition: all 0.5s;
 }
 
-nav li:hover{
+#menu nav li:hover{
     background-color: #C31733;
 }
 
 
-nav li:active{
+#menu nav li:active{
     background-color: #C31733 !important;
 }
 
@@ -156,11 +156,13 @@ footer p{
 }
 
 #breadcrumb {
-    background-color: #F2F2F2;
+    background-color: #F2F2F2
+    
 }
 
 #breadcrumb a{
-    font-size:12px;
+    font-size:13px;
+    color:black;
 }
 
 #bizKimiz p {
@@ -425,6 +427,7 @@ textarea{
     padding: 5px;
     width:30%;
 }
+
 
 #mutlulukNedenleri h3, #oda h3 ,#digerMutluluk h3{
     padding-bottom: 25px;
