@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Üniyurt TV</title>
+    <link rel="stylesheet" href="responsive.css">
     <link rel="icon" href="img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -42,7 +43,7 @@
         <div id="menu">
             <div class="row">
                 <div class="col-sm-8">
-                    <a href="index.html"> <img src="img/uniyurt-logo.png" alt="" width=230px;></a> 
+                    <a href="index.html"> <img src="img/uniyurt-logo.png" alt="" width=230px;></a>
                 </div>
                 <div class="col-sm-4">
                     <a id="kayit" href="kayit.html">Online Ön Kayıt</a>
@@ -56,11 +57,16 @@
                     <div class="col-sm-3">
 
                     </div>
-                    <div class="col-sm-9 ">
-                        <nav class="navbar navbar-expand-sm float-end">
-                            <div class="collapse navbar-collapse">
+                    <div class="col-sm-9">
+                        <nav class="navbar navbar-expand-sm ">
+                            <button class="navbar-toggler bg-muted" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#menuBtn" aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <i class="navbar-toggler-icon fas fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="menuBtn">
                                 <ul class="navbar-nav">
-                                    <li class="nav-item dropdown pb-2">
+                                    <li class="nav-item dropdown ">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">Hakkımızda</a>
                                         <ul class="dropdown-menu">
@@ -68,57 +74,60 @@
                                             <li><a href="degerlerimiz.html" class="dropdown-item">Değerlerimiz</a></li>
                                             <li><a href="politikalarimiz.html" class="dropdown-item">Politikalarımız</a>
                                             </li>
-                                            
                                         </ul>
                                     </li>
 
-                                    <li class="nav-item dropdown pb-2">
+                                    <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">Lokasyonlar</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="uniyurtAfyon.html" class="dropdown-item">Üniyurt Afyon</a></li>
-                                                <li><a href="uniyurtIyte.html" class="dropdown-item">Üniyurt İYTE</a></li>
-                                                <li><a href="uniyurtSakarya.html" class="dropdown-item">Üniyurt Sakarya</a></li>
-                                                <li><a href="uniyurtZonguldak.html" class="dropdown dropdown-item">Üniyurt Zonguldak</a> </li>
-                                            </ul>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="uniyurtAfyon.html" class="dropdown-item">Üniyurt Afyon</a></li>
+                                            <li><a href="uniyurtIyte.html" class="dropdown-item">Üniyurt İYTE</a></li>
+                                            <li><a href="uniyurtSakarya.html" class="dropdown-item">Üniyurt Sakarya</a>
+                                            </li>
+                                            <li><a href="uniyurtZonguldak.html" class="dropdown dropdown-item">Üniyurt
+                                                    Zonguldak</a> </li>
+                                        </ul>
                                     </li>
-
-                                    
-
-                                    <li class="nav-item dropdown pb-2">
+                                    <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">Galeri</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="afyonimg.html" class="dropdown-item">Üniyurt Afyon</a></li>
-                                                <li><a href="iyteimg.html" class="dropdown-item">Üniyurt İYTE</a></li>
-                                                <li><a href="sakaryaimg.html" class="dropdown-item">Üniyurt Sakarya</a></li>
-                                                <li><a href="zonguldakimg.html" class="dropdown dropdown-item">Üniyurt Zonguldak</a> </li>
-                                            </ul>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="afyonimg.html" class="dropdown-item">Üniyurt Afyon</a></li>
+                                            <li><a href="iyteimg.html" class="dropdown-item">Üniyurt İYTE</a></li>
+                                            <li><a href="sakaryaimg.html" class="dropdown-item">Üniyurt Sakarya</a></li>
+                                            <li><a href="zonguldakimg.html" class="dropdown dropdown-item">Üniyurt
+                                                    Zonguldak</a> </li>
+                                        </ul>
                                     </li>
 
-                                    <li class="nav-item dropdown pb-2">
+                                    <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">S.S.S</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="afyonsss.html" class="dropdown-item">Üniyurt Afyon-Sıkça Sorulan
+                                            <li><a href="afyonsss.html" class="dropdown-item">Üniyurt Afyon-Sıkça
+                                                    Sorulan
                                                     Sorular</a>
                                             </li>
-                                            <li><a href="iytesss.html" class="dropdown-item">Üniyurt İYTE-Sıkça Sorulan Sorular</a>
-                                            </li>
-                                            <li><a href="sakaryasss.html" class="dropdown-item">Üniyurt Sakarya-Sıkça Sorulan
+                                            <li><a href="iytesss.html" class="dropdown-item">Üniyurt İYTE-Sıkça Sorulan
                                                     Sorular</a>
                                             </li>
-                                            <li><a href="zonguldaksss.html" class="dropdown dropdown-item">Üniyurt Zonguldak-Sıkça
+                                            <li><a href="sakaryasss.html" class="dropdown-item">Üniyurt Sakarya-Sıkça
+                                                    Sorulan
+                                                    Sorular</a>
+                                            </li>
+                                            <li><a href="zonguldaksss.html" class="dropdown dropdown-item">Üniyurt
+                                                    Zonguldak-Sıkça
                                                     Sorulan
                                                     Sorular</a> </li>
                                         </ul>
                                     </li>
 
-                                    <li class="nav-item pb-2">
+                                    <li class="nav-item">
                                         <a href="etkinlik.html" class="nav-link">Etkinlikler</a>
                                     </li>
 
-                                    <li class="nav-item dropdown pb-2">
+                                    <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
                                             data-bs-toggle="dropdown">Medya</a>
                                         <ul class="dropdown-menu">
@@ -130,17 +139,15 @@
                                         </ul>
                                     </li>
 
-                                    <li class="nav-item pb-2">
+                                    <li class="nav-item">
                                         <a href="duyuru.html" class="nav-link">Duyurular</a>
                                     </li>
 
-                                    <li class="nav-item pb-2">
+                                    <li class="nav-item">
                                         <a href="contact.html" class="nav-link">İletişim</a>
                                     </li>
                                 </ul>
-                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+
                             </div>
                         </nav>
                     </div>

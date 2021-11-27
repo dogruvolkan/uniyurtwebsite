@@ -1,0 +1,50 @@
+@media (max-width:576px) {
+    #topBar{
+        height: 100px;
+    }
+    #menu .col-sm-8{
+        position: relative; 
+        left:100px;
+        bottom: 20px;        
+    }
+    #menu .col-sm-8 img{
+       width: 150px;   
+    }
+    #menu #kayit{
+        width:100px;
+        margin-bottom: 20px;
+    }
+
+    #menu button i{
+        padding-top: 5px;
+    }
+
+    #menu button{
+        margin: 15px;
+    }
+
+    #menu ul{
+        border:none !important;
+    }
+
+    #menu ul li{
+        text-align:center;
+    }
+
+    #lokasyonlar .col-sm-3{
+        position: relative;
+        left:80px;
+    }
+
+    #lokasyonlar .col-sm-3 h5{
+       padding-bottom:20px;
+    }
+}
+
+@media (max-width:480px) {
+    #topBar{
+        height: 115px;
+    }
+}
+
+

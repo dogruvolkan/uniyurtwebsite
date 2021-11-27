@@ -13,7 +13,7 @@ body{
     background-color: #C31733 ;
     color:#fdfdfd;
     padding-top:13px;
-    text-align: center;
+    text-align: center; 
 }
 
 #topBar a{
@@ -30,16 +30,14 @@ body{
 }
 
 #menu{
-    margin:30px 40px; 
-    
+    margin:30px 40px;    
 }
 
 #menu #kayit{
     text-decoration: none;
     background-color: #C21632;
     color:#fdfdfd;
-    padding:6px ;
-   
+    padding:6px ; 
 }
 
 #menu .socialBtn{  
@@ -80,39 +78,26 @@ body{
 
 #menu nav a{
     color:#060606 !important;
-    transition: all 0.5s;
+    
 }
 
 #menu nav a:hover{
     color:#fff !important;
 }
 
-
-#menu nav li {
-    transition: all 0.5s;
-}
-
 #menu nav li:hover{
     background-color: #C31733;
 }
-
 
 #menu nav li:active{
     background-color: #C31733 !important;
 }
 
 
-
-.dropdown-menu li{
-    transition: all 0.5s;
-}
-
 .dropdown-menu li:hover a{
     background-color: #C31733 !important;
     color:#fff !important;
 }
-
-
 
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
