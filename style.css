@@ -487,6 +487,18 @@ textarea{
     width:30%;
 }
 
+/* yurt image icin css code*/
+
+@media (max-width:480px){
+    .yurtImg .row{
+        position: relative;
+        left:20px;
+    }
+    .yurtImg img{
+        width: 90%;
+    }
+}
+
 
 #mutlulukNedenleri h3, #oda h3 ,#digerMutluluk h3{
     padding-bottom: 25px;
