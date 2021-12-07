@@ -106,14 +106,36 @@ body{
     padding:5px;
 }
 
+
+/* lokasyonlar css code */
+
 #lokasyonlar{
     background-color: #F9F9F9;
+    padding:30px 0;
+    margin:30px 0;
 }
+
+#lokasyonlar .row{
+    padding-left: 80px;
+}
+
+@media (max-width:480px) {
+
+    
+}
+
+/* ogrenciYorum css code */
 
 #ogrenciYorum{
     background-image: url("img/ogrenci-yorumlari-arkaplan.png");
     background-size: auto;
     color:#B0B0B0;
+}
+
+@media (max-width:480px) {
+    #ogrenciYorum {
+       
+    }
 }
 
 footer{
@@ -140,9 +162,9 @@ footer p{
     
 }
 
+/* breadcrumb css code */
 #breadcrumb {
-    background-color: #F2F2F2
-    
+    background-color: #F2F2F2 
 }
 
 #breadcrumb a{
@@ -216,6 +238,8 @@ footer p{
     
 }
 
+/* contact css code */
+
 #contact li{
     font-size:13px;
 }
@@ -223,27 +247,57 @@ footer p{
 #contact  input[type="submit"]{
     background-color: #C21632;
     color:#fff;
-    transition: all 0.5s;
+    transition:0.5s;
 }
 
 #contact  input[type="submit"]:hover{
     opacity: 0.9;
 }
 
+@media (max-width:480px) {
+
+    #contact .formContact{
+        padding-top: 20px;
+    }
+
+    .formContact .email, .lokasyon{
+        margin-top: 20px;
+    }
+}
+
+/* yurt tv css code */
+@media (max-width:480px) {
+
+   #yurtTv .row{
+       padding-left:30px;
+   }
+}
+
+/* etkinlik css code */
+@media (max-width:480px) {
+
+    #etkinlik .row{
+        padding-left:30px;
+    }
+ }
 
 
+/* sss lokasyon bolumu css code */
 .location{
     padding:15px 40px;
     width: 100%;
     background-color: #C31733;
-    transition: all 0,8s;
+    transition:0.5s;
+}
+
+.location span{
+    position: relative;
+
 }
 
  .location a{
    text-decoration: none;
-    color:#fff ;
-   
-   
+    color:#fff ; 
 }
 
  .location:hover{
@@ -253,8 +307,15 @@ footer p{
      cursor: pointer;
  }
 
+ @media (max-width:480px){
+
+    .location {
+        margin-top: 20px;
+    }
+ }
+
 .card{
-     margin-top: 40px;
+     margin-top: 10px;
      padding: 15px 20px;
      width: 100%;
  }
@@ -271,7 +332,16 @@ input[type="submit"]{
      width: 100%;
      border-radius: 0;
      margin-top: 10px;
+     transition: all 0.5s;    
  }
+
+ input[type="submit"]:hover{
+    color:#fff;
+    opacity: 0.9;
+}
+
+
+/* sss bolumu acordion css code */
 
  .accordion-item {
    padding-bottom: 15px;
@@ -293,12 +363,13 @@ input[type="submit"]{
     z-index: 3;
     border-color: #C21632 !important; 
     outline: 0;
-    box-shadow: none !important; 
-    
+    box-shadow: none !important;   
 }
 
+/* genel form elemanları için css code */
 
 .form-control:focus , .form-select:focus{
+    border:1px solid #C21632 !important;
     outline: 0;
     box-shadow: none !important; 
 }
@@ -306,6 +377,8 @@ input[type="submit"]{
 textarea{
     resize: none !important;
 }
+
+
 
 #mesafe h4{
     padding:20px;
@@ -361,6 +434,8 @@ textarea{
    
 }
 
+/* iletisim css code */
+
 #iletisim li{
     list-style-type: none;
     font-size: 14px;
@@ -375,13 +450,12 @@ textarea{
     height: 50px;
     border:none;
     color:#fff;
-    transition: all 0.8s;
+    transition:0.5s;
 }
 
 #iletisim a:hover{
     opacity: 0.9;
 }
-
 
 #iletisim .f{
     background-color: #3B5A9A;
