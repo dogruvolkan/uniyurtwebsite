@@ -40,25 +40,26 @@ body{
     padding:6px ; 
 }
 
-#menu .socialBtn{  
-    border-radius: 50%;
-    color:#333333;
-    padding:8px;
-    margin-left:3px; 
-    transition: all 1.4s; 
-}
+/* sosyal medya ikonları */
 
+#menu .socialBtn{  
+    border-radius: 10px;
+    color:#333333;
+    padding:9px;
+    margin-left:5px; 
+    transition: all 0.6s; 
+}
 
 #menu .face:hover {
     color:#fdfdfd;
     background-color: #3b5998;
 }
 
-#menu .twit:hover {
-   
+#menu .twit:hover { 
     color:#fdfdfd;
     background-color: #1DA1F2;
 }
+
 
 #menu .inst:hover {
     color:#fdfdfd;
@@ -100,10 +101,225 @@ body{
 }
 
 
+/* slayt için css code */
+
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color:black ;
     width:25px;
     padding:5px;
+}
+
+/* alert için css code */
+
+.alert{
+    height: 70px;
+}
+
+.alert button{
+    margin-top:5px;
+}
+
+@media (max-width:480px) {
+    .alert{
+        height: 100px;
+    }
+    .alert a{
+        display: inline-block;
+    }
+
+    .alert button{
+        margin-top:22px;
+    }
+}
+
+/* kovidTedbir ve sorular  için css code */
+
+#kovidTedbir , #sorular{
+    background-color: #F9F9F9;
+}
+
+#kovidTedbir .col-8{
+    font-size: 18px;
+}
+
+#kovidTedbir button ,  #sorular button{
+    background-color: #C31733;
+    transition: 0.5s;
+    margin-top:20px;
+}
+
+#kovidTedbir button:hover , #sorular button:hover{
+   opacity: 0.9;
+}
+
+
+@media (max-width:480px){
+    #kovidTedbir button , #sorular button{
+        margin-top:35px;
+    }
+
+    #kovidTedbir .col-8 , #sorular .col-8{
+        font-size: 16px;
+    }
+}
+
+/* mutluluk slayt için css code */
+
+#mutlulukNedenleri h3, #oda h3 ,#digerMutluluk h3{
+    padding-bottom: 25px;
+    border-bottom: 3px solid black;
+    margin-bottom: 45px;
+}
+
+#mutlulukNedenleri img , #digerMutluluk img{
+    width:100px;
+    position: relative;
+    left:20px;
+}
+
+#mutlulukNedenleri p , #digerMutluluk p{
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* oda için css code */
+
+#oda ul{
+    padding: 10px;
+}
+
+#oda li{
+    padding: 10px;
+    list-style-type: none;  
+    display: block;
+    transition: 0.5;
+}
+
+#oda a{   
+    color:black;
+    text-decoration: none;
+}
+
+
+#oda .card{
+    background-color: #EBEBEB ;
+}
+
+#oda .btn{
+    width: 260px;
+    background-color: #cfcece;
+    color:#272424;
+    border-radius: 0;
+    transition:0.5s;   
+}
+
+#oda .btn:hover{
+      opacity: 0.9;
+}
+
+@media (max-width:480px) {
+    #oda .btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #oda .img{
+        position: relative;
+        left:-85px;
+    }
+}
+
+/* ogrenciYorum css code */
+
+#ogrenciYorum{
+    background-image: url("img/ogrenci-yorumlari-arkaplan.png");
+    background-size: auto;
+    color:#B0B0B0;
+}
+
+@media (max-width:480px) {
+    #ogrenciYorum img{
+       position: relative;
+       left:120px;
+       bottom:25px;
+    }
+}
+
+
+/* mesafe için css code */
+
+#mesafe h3{
+    padding:20px;
+    border-bottom:2px solid black;
+}
+
+#mesafe li{
+    list-style-type: none;
+}
+
+#mesafe span{    
+    padding-left: 20px;
+}
+
+@media (max-width:480px){
+
+    #mesafe .img{
+        margin-left:80px;
+    }
+}
+
+
+/* iletisim css code */
+
+#iletisim li{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+#iletisim span{
+    padding-left:10px;
+}
+
+#iletisim a{
+    width:50px;
+    height: 50px;
+    border:none;
+    color:#fff;
+    transition:0.5s;
+}
+
+#iletisim a:hover{
+    opacity: 0.9;
+}
+
+#iletisim .f{
+    background-color: #3B5A9A;
+    font-size:11px;
+    padding: 8px 10px;
+}
+
+#iletisim .t{
+    background-color: #1AA9E1;
+    font-size:11px;
+    padding: 8px ;
+}
+
+#iletisim .i{
+    background-color: #7C4A3A;
+    font-size:11px;
+    padding: 8px ;
+}
+
+#iletisim .l{
+    background-color: #0073B2;
+    font-size:11px;
+    padding: 9px ;
+}
+
+#iletisim input[type="submit"]{
+    border:none;
+    padding: 5px;
+    width:30%;
 }
 
 
@@ -124,19 +340,7 @@ body{
     
 }
 
-/* ogrenciYorum css code */
 
-#ogrenciYorum{
-    background-image: url("img/ogrenci-yorumlari-arkaplan.png");
-    background-size: auto;
-    color:#B0B0B0;
-}
-
-@media (max-width:480px) {
-    #ogrenciYorum {
-       
-    }
-}
 
 footer{
     background-color: #060606;
@@ -194,41 +398,11 @@ footer p{
     font-size:18px;
 }
 
-#kovidTedbir{
-    background-color: #F9F9F9;
-}
-
-#kovidTedbir .col-sm-5{
-    font-size: 21px;
-}
-
-#kovidTedbir button{
-    background-color: #C31733;
-}
 
 
 
 
-#oda ul{
-    background-color:#F8F8F8; 
-    padding: 10px;
-}
-
-#oda li{
-    padding: 10px;
-    list-style-type: none;  
-    display: inline-block;
-}
-
-#oda li:hover{
-    background-color: #EBEBEB;
-    
-}
-
-#oda a{   
-    color:black;
-    text-decoration: none;
-}
+/* button genel css code */
 
 .btn:focus {
     z-index: 3;
@@ -380,112 +554,8 @@ textarea{
 
 
 
-#mesafe h4{
-    padding:20px;
-    border-bottom:2px solid black;
-}
 
-#mesafe li{
-    list-style-type: none;
-}
 
-#mesafe span{
-    
-    padding-left: 20px;
-}
-
-#oda{
-    margin-bottom: 50px;
-}
-
-#oda ul{
-    background-color: transparent;
-}
-
-#oda li{
-    display:block;  
-}
-
-#oda .card{
-    background-color: #EBEBEB;
-}
-
-#oda .btn{
-    width: 260px;
-    background-color: #cfcece;
-    color:#fff;
-    border-radius: 0;
-    transition: all 0.8s;   
-}
-
-#oda .btn:hover{
-   background-color: #797777;   
-}
-
-#sorular{
-    background-color: #F9F9F9;
-    padding:30px 30px;
-}
-
-#sorular .btn{
-    background-color:#C31733;
-    color:#fff;
-    border-radius: none ;
-   
-}
-
-/* iletisim css code */
-
-#iletisim li{
-    list-style-type: none;
-    font-size: 14px;
-}
-
-#iletisim span{
-    padding-left:10px;
-}
-
-#iletisim a{
-    width:50px;
-    height: 50px;
-    border:none;
-    color:#fff;
-    transition:0.5s;
-}
-
-#iletisim a:hover{
-    opacity: 0.9;
-}
-
-#iletisim .f{
-    background-color: #3B5A9A;
-    font-size:11px;
-    padding: 8px 10px;
-}
-
-#iletisim .t{
-    background-color: #1AA9E1;
-    font-size:11px;
-    padding: 8px ;
-}
-
-#iletisim .i{
-    background-color: #7C4A3A;
-    font-size:11px;
-    padding: 8px ;
-}
-
-#iletisim .l{
-    background-color: #0073B2;
-    font-size:11px;
-    padding: 9px ;
-}
-
-#iletisim input[type="submit"]{
-    border:none;
-    padding: 5px;
-    width:30%;
-}
 
 /* yurt image icin css code*/
 
@@ -500,15 +570,7 @@ textarea{
 }
 
 
-#mutlulukNedenleri h3, #oda h3 ,#digerMutluluk h3{
-    padding-bottom: 25px;
-    border-bottom: 3px solid black;
-    margin-bottom: 45px;
-}
 
-#mutlulukNedenleri img , #digerMutluluk img{
-    width:110px;
-}
 
 
 /* footer */
@@ -525,7 +587,7 @@ textarea{
     opacity: 0;
 }
 
-/* responsive tasarım */
+
 
 
 
