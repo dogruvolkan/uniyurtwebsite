@@ -14,7 +14,6 @@ nav a{
 }
 
 
-
 nav .btn-outline{
     border:1px solid #fff !important;
     border-radius: 20px !important;
@@ -25,6 +24,8 @@ nav .btn-outline:hover{
     background-color: #fff;
     color:black !important;
 }
+
+/* ödeme için css */
 
 .card{
     max-width: 650px;
@@ -61,7 +62,7 @@ nav .btn-outline:hover{
     border-radius: 20px;
     width: 200px;
     padding: 10px 5px;
-    transition: all .8s;
+    transition: 0.5s;
 }
 
 #odeme button:hover{
@@ -73,16 +74,24 @@ nav .btn-outline:hover{
     text-decoration: none;
 }
 
+@media (max-width:480px){
+    .card{
+        width: 90%;
+    }
+}
+
+/* footer */
+
 footer{
     margin-top: 50px;
     background-color: #B81A30;
     color:#fff;
     font-size:14px;
-    padding:40px 50px;
+    padding:30px;
 }
 
 footer li{
-    display: inline;
+    display: block;
 }
 
 footer a{
@@ -97,31 +106,45 @@ footer a:hover{
     text-decoration: underline;
 }
 
-#destek{
-   position: relative;
-   margin:auto;
+@media (max-width:480px){
+
+    footer img{
+        position: relative;
+        left:80px;
+    }
+
+    footer .siteHarita{
+        position: relative;
+        top:10px;
+        left:-35px;
+        text-decoration: underline;
+    }
 }
 
+/* destek icin css */
+
 #destek i{
-    color:#ddd;
-    
+    color:#ddd;   
 }
 
 #destek input[type="submit"]{
     background-color: #53B150;
     color: #fff;
     width: 120px;
-    transition: all 0.8s;
+    transition:0.5s;
+}
+
+textarea{
+    resize: none !important;
 }
 
 #destek input[type="submit"]:hover{
     opacity: 0.8;
 }
 
-
 #destek li:last-child{
     border-bottom: 2px dotted #ddd;
-    width: 400px;
+    width: 380px;
 }
 
 #destek li{
@@ -134,8 +157,11 @@ footer a:hover{
     text-decoration: none;
 }
 
-textarea{
-    resize: none !important;
+@media (max-width:480px){
+
+    .contactInfo{
+        margin-top: 50px;
+    }
 }
 
 
