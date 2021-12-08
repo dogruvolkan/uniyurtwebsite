@@ -31,14 +31,7 @@
         text-align:center;
     }
 
-    #lokasyonlar .col-sm-3{
-        position: relative;
-        left:80px;
-    }
-
-    #lokasyonlar .col-sm-3 h5{
-       padding-bottom:20px;
-    }
+    
 }
 
 @media (max-width:480px) {

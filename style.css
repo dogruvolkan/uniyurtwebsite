@@ -21,7 +21,7 @@ body{
     color:#fdfdfd;
     background-color: #A40014;
     padding:8px 12px;
-    transition: all 0.4s;
+    transition: 0.5s;
     cursor:pointer;
 }
 
@@ -79,11 +79,16 @@ body{
 
 #menu nav a{
     color:#060606 !important;
+    transition: 0.5s;
     
 }
 
 #menu nav a:hover{
     color:#fff !important;
+}
+
+#menu nav li{
+    transition: 0.5s;
 }
 
 #menu nav li:hover{
@@ -327,44 +332,32 @@ body{
 
 #lokasyonlar{
     background-color: #F9F9F9;
-    padding:30px 0;
-    margin:30px 0;
+    padding:30px 0;  
 }
 
-#lokasyonlar .row{
-    padding-left: 80px;
+#lokasyonlar img{
+    width:180px;
+    height: 180px;
+    margin-left: 40px;
 }
+
+#lokasyonlar h5{
+    text-align: center;
+    padding-top: 20px;
+ }
+
 
 @media (max-width:480px) {
 
-    
+    #lokasyonlar img{
+        width: 200px;
+        height: 200px;
+        margin-left:110px;
+        margin-top: 15px;
+    }  
 }
 
 
-
-footer{
-    background-color: #060606;
-    
-}
-
-footer a{
-    color:#BEBEBE;
-    text-decoration: none;
-    font-size: 12px;
-    opacity: 0.8;
-    transition: all 0.9s;
-}
-
-footer a:hover{
-    color:#BEBEBE;
-    opacity: 1;
-}
-
-footer p{
-    color:#BEBEBE;
-    font-size: 12px;
-    
-}
 
 /* breadcrumb css code */
 #breadcrumb {
@@ -397,9 +390,6 @@ footer p{
 #uniyurtAfyon p{
     font-size:18px;
 }
-
-
-
 
 
 /* button genel css code */
@@ -554,9 +544,6 @@ textarea{
 
 
 
-
-
-
 /* yurt image icin css code*/
 
 @media (max-width:480px){
@@ -570,10 +557,48 @@ textarea{
 }
 
 
+/* footer için css code */
 
+footer{
+    background-color: #060606;
+    
+}
 
+footer a{
+    color:#BEBEBE;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    transition:0.5s;
+}
 
-/* footer */
+footer a:hover{
+    color:#BEBEBE;
+    opacity: 1;
+}
+
+footer p{
+    color:#BEBEBE;
+    font-size: 12px; 
+}
+
+@media (max-width:480px){
+
+    footer img{
+        margin-left:165px;
+        margin-bottom:10px;
+    }
+
+    footer .col-sm-6 a{
+        margin:7px;
+    }
+
+    footer p{
+        margin-top:5px;       
+    }
+}
+
+/* backtotop için css */
 
 #backtoTop i{
     position: fixed;
