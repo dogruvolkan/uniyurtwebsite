@@ -582,6 +582,22 @@ footer p{
     font-size: 12px; 
 }
 
+
+
+/* backtotop için css */
+
+#backtoTop i{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    background-color: #000;
+    padding:14px;
+    color:#fff;
+    cursor:pointer;
+    transition: all 1s;  
+    opacity: 0;
+}
+
 @media screen and (max-width:480px){
 
     footer img{
@@ -596,20 +612,6 @@ footer p{
     footer p{
         margin-top:5px;       
     }
-}
-
-/* backtotop için css */
-
-#backtoTop i{
-    position: fixed;
-    bottom:10px;
-    right:10px;
-    background-color: #000;
-    padding:14px;
-    color:#fff;
-    cursor:pointer;
-    transition: all 1s;  
-    opacity: 0;
 }
 
 
