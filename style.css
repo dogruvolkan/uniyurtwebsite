@@ -15,7 +15,11 @@ body{
         width: 100vw;
         overflow-x: hidden;     
     }
+
+   
 }
+
+
 
 .container{
     overflow: hidden;
@@ -149,6 +153,9 @@ body{
 
     .alert button{
         margin-top:22px;
+    }
+    iframe{
+        width:95%;
     }
 }
 
