@@ -8,6 +8,10 @@ body{
     background-color: #C02740;
 }
 
+.container{
+    overflow: hidden;
+}
+
 nav a{
     color:#fff !important;
    
@@ -74,7 +78,7 @@ nav .btn-outline:hover{
     text-decoration: none;
 }
 
-@media (max-width:414px){
+@media screen and (max-width:480px){
     .card{
         width: 90%;
     }
@@ -106,7 +110,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-@media (max-width:414px){
+@media screen and (max-width:480px){
 
     footer img{
         position: relative;
@@ -157,7 +161,7 @@ textarea{
     text-decoration: none;
 }
 
-@media (max-width:414px){
+@media screen and (max-width:480px){
 
     .contactInfo{
         margin-top: 50px;

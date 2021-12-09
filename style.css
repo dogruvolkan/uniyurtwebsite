@@ -9,6 +9,9 @@ body{
     overflow-x:hidden;
 }
 
+.container{
+    overflow: hidden;
+}
 #topBar{
     background-color: #C31733 ;
     color:#fdfdfd;
@@ -124,7 +127,7 @@ body{
     margin-top:5px;
 }
 
-@media (max-width:414px) {
+@media screen and (max-width:480px){
     .alert{
         height: 100px;
     }
@@ -158,7 +161,7 @@ body{
 }
 
 
-@media (max-width:414px){
+@media screen and (max-width:480px){
     #kovidTedbir button , #sorular button{
         margin-top:35px;
     }
@@ -222,7 +225,7 @@ body{
       opacity: 0.9;
 }
 
-@media (max-width:414px) {
+@media screen and (max-width:480px){
     #oda .btn{
         width: 100%;
         margin-bottom: 10px;
@@ -242,7 +245,7 @@ body{
     color:#B0B0B0;
 }
 
-@media (max-width:414px) {
+@media screen and (max-width:480px){
     #ogrenciYorum img{
        position: relative;
        left:120px;
@@ -266,7 +269,7 @@ body{
     padding-left: 20px;
 }
 
-@media (max-width:414px){
+@media screen and (max-width:480px){
 
     #mesafe .img{
         margin-left:80px;
@@ -347,7 +350,7 @@ body{
  }
 
 
-@media (max-width:414px) {
+ @media screen and (max-width:480px){
 
     #lokasyonlar img{
         width: 200px;
@@ -418,7 +421,7 @@ body{
     opacity: 0.9;
 }
 
-@media (max-width:414px) {
+@media screen and (max-width:480px){
 
     #contact .formContact{
         padding-top: 20px;
@@ -430,7 +433,7 @@ body{
 }
 
 /* yurt tv css code */
-@media (max-width:414px) {
+@media screen and (max-width:480px){
 
    #yurtTv .row{
        padding-left:30px;
@@ -438,7 +441,7 @@ body{
 }
 
 /* etkinlik css code */
-@media (max-width:414px) {
+@media screen and (max-width:480px){
 
     #etkinlik .row{
         padding-left:30px;
@@ -471,7 +474,7 @@ body{
      cursor: pointer;
  }
 
- @media (max-width:414px){
+ @media screen and (max-width:480px){
 
     .location {
         margin-top: 20px;
@@ -546,7 +549,7 @@ textarea{
 
 /* yurt image icin css code*/
 
-@media (max-width:414px){
+@media screen and (max-width:480px){
     .yurtImg .row{
         position: relative;
         left:20px;
@@ -582,6 +585,22 @@ footer p{
     font-size: 12px; 
 }
 
+@media screen and (max-width:480px){
+
+    footer img{
+        margin-left:165px;
+        margin-bottom:10px;
+    }
+
+    footer .col-sm-6 a{
+        margin:3px;
+    }
+
+    footer p{
+        margin-top:5px;       
+    }
+}
+
 
 
 /* backtotop için css */
@@ -598,21 +617,7 @@ footer p{
     opacity: 0;
 }
 
-@media only screen and (max-width:414px){
 
-    footer img{
-        margin-left:165px;
-        margin-bottom:10px;
-    }
-
-    footer .col-sm-6 a{
-        margin:5px;
-    }
-
-    footer p{
-        margin-top:5px;       
-    }
-}
 
 
 
