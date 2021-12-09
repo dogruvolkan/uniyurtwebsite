@@ -28,6 +28,10 @@ body{
     cursor:pointer;
 }
 
+.odeme{
+    padding:3px 0;
+}
+
 #topBar a:hover{
     opacity: 0.9;
 }
