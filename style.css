@@ -124,7 +124,7 @@ body{
     margin-top:5px;
 }
 
-@media (max-width:480px) {
+@media (max-width:414px) {
     .alert{
         height: 100px;
     }
@@ -158,7 +158,7 @@ body{
 }
 
 
-@media (max-width:480px){
+@media (max-width:414px){
     #kovidTedbir button , #sorular button{
         margin-top:35px;
     }
@@ -222,7 +222,7 @@ body{
       opacity: 0.9;
 }
 
-@media (max-width:480px) {
+@media (max-width:414px) {
     #oda .btn{
         width: 100%;
         margin-bottom: 10px;
@@ -242,7 +242,7 @@ body{
     color:#B0B0B0;
 }
 
-@media (max-width:480px) {
+@media (max-width:414px) {
     #ogrenciYorum img{
        position: relative;
        left:120px;
@@ -266,7 +266,7 @@ body{
     padding-left: 20px;
 }
 
-@media (max-width:480px){
+@media (max-width:414px){
 
     #mesafe .img{
         margin-left:80px;
@@ -338,7 +338,7 @@ body{
 #lokasyonlar img{
     width:180px;
     height: 180px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 #lokasyonlar h5{
@@ -347,7 +347,7 @@ body{
  }
 
 
-@media (max-width:480px) {
+@media (max-width:414px) {
 
     #lokasyonlar img{
         width: 200px;
@@ -418,7 +418,7 @@ body{
     opacity: 0.9;
 }
 
-@media (max-width:480px) {
+@media (max-width:414px) {
 
     #contact .formContact{
         padding-top: 20px;
@@ -430,7 +430,7 @@ body{
 }
 
 /* yurt tv css code */
-@media (max-width:480px) {
+@media (max-width:414px) {
 
    #yurtTv .row{
        padding-left:30px;
@@ -438,7 +438,7 @@ body{
 }
 
 /* etkinlik css code */
-@media (max-width:480px) {
+@media (max-width:414px) {
 
     #etkinlik .row{
         padding-left:30px;
@@ -471,7 +471,7 @@ body{
      cursor: pointer;
  }
 
- @media (max-width:480px){
+ @media (max-width:414px){
 
     .location {
         margin-top: 20px;
@@ -546,7 +546,7 @@ textarea{
 
 /* yurt image icin css code*/
 
-@media (max-width:480px){
+@media (max-width:414px){
     .yurtImg .row{
         position: relative;
         left:20px;
@@ -598,7 +598,7 @@ footer p{
     opacity: 0;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:414px){
 
     footer img{
         margin-left:165px;
@@ -606,7 +606,7 @@ footer p{
     }
 
     footer .col-sm-6 a{
-        margin:7px;
+        margin:5px;
     }
 
     footer p{

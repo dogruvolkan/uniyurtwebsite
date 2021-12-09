@@ -74,7 +74,7 @@ nav .btn-outline:hover{
     text-decoration: none;
 }
 
-@media (max-width:480px){
+@media (max-width:414px){
     .card{
         width: 90%;
     }
@@ -106,7 +106,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-@media (max-width:480px){
+@media (max-width:414px){
 
     footer img{
         position: relative;
@@ -157,7 +157,7 @@ textarea{
     text-decoration: none;
 }
 
-@media (max-width:480px){
+@media (max-width:414px){
 
     .contactInfo{
         margin-top: 50px;
